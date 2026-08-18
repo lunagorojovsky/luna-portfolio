@@ -74,10 +74,10 @@ header {
 
 /* --- Tablero --- */
 .tablero {
-  padding: 100px var(--page-padding) 80px;
+  padding: 120px var(--page-padding) 80px;
   display: flex;
   flex-wrap: wrap;
-  gap: 48px 40px;
+  gap: 80px 60px;
   align-items: flex-start;
 }
 
@@ -113,17 +113,17 @@ header {
 
 .proyecto:hover .proyecto-nombre { color: var(--fg); }
 
-/* TamaÃ±os */
-.size-s .proyecto-img { width: 140px; height: 190px; }
-.size-m .proyecto-img { width: 200px; height: 270px; }
+/* Tamaños */
+.size-s .proyecto-img { width: 100px; height: 140px; }
+.size-m .proyecto-img { width: 150px; height: 200px; }
 
 /* Desplazamiento vertical irregular */
 .pos-1 { margin-top: 0; }
-.pos-2 { margin-top: 60px; }
-.pos-3 { margin-top: 20px; }
-.pos-4 { margin-top: 100px; }
-.pos-5 { margin-top: 40px; }
-.pos-6 { margin-top: 80px; }
+.pos-2 { margin-top: 100px; }
+.pos-3 { margin-top: 40px; }
+.pos-4 { margin-top: 160px; }
+.pos-5 { margin-top: 20px; }
+.pos-6 { margin-top: 120px; }
 
 /* --- Sobre --- */
 .sobre-main {
