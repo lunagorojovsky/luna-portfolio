@@ -73,37 +73,6 @@ header {
 .nav-link.active { color: var(--fg); }
 
 
-.proyecto {
-  display: block;
-  cursor: pointer;
-  flex-shrink: 0;
-}
-
-.proyecto-img {
-  overflow: hidden;
-  background: #ececec;
-}
-
-.proyecto-img img {
-  transition: transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  filter: grayscale(10%);
-}
-
-.proyecto:hover .proyecto-img img {
-  transform: scale(1.03);
-  filter: grayscale(0%);
-}
-
-.proyecto-nombre {
-  display: block;
-  font-family: var(--font-hand);
-  font-size: 18px;
-  margin-top: 6px;
-  color: var(--fg-dim);
-  transition: color 0.3s;
-}
-
-.proyecto:hover .proyecto-nombre { color: var(--fg); }
 
 /* TamaÃ±os */
 .size-s .proyecto-img { width: 140px; height: 190px; }
