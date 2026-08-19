@@ -167,7 +167,7 @@ footer {
 
 .proyecto-nombre {
   display: block;
-  font-family: var(--font-hand);
+  font-family: var(--font-serif);
   font-size: 17px;
   margin-top: 6px;
   color: var(--fg-dim);
