@@ -137,8 +137,8 @@ footer {
 .tablero {
   position: relative;
   min-height: 700px;
+  min-width: 1400px;
   padding: 80px 0 120px;
-  width: 100%;
 }
 
 .proyecto {
