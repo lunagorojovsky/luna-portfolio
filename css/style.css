@@ -1,5 +1,5 @@
 /* ================================
-   LUNA GOROJOVSKY â€” style.css
+   LUNA GOROJOVSKY â€“ style.css
    ================================ */
 
 *, *::before, *::after {
@@ -72,8 +72,6 @@ header {
 .nav-link:hover,
 .nav-link.active { color: var(--fg); }
 
-
-
 /* TamaÃ±os */
 .size-s .proyecto-img { width: 140px; height: 190px; }
 .size-m .proyecto-img { width: 200px; height: 270px; }
@@ -131,20 +129,10 @@ footer {
   border-top: 1px solid #eee;
 }
 
-/* --- Responsive --- */
-@media (max-width: 600px) {
-  .size-s .proyecto-img { width: 120px; height: 160px; }
-  .size-m .proyecto-img { width: 160px; height: 210px; }
-  .tablero { gap: 32px 24px; }
-  .pos-2 { margin-top: 30px; }
-  .pos-4 { margin-top: 50px; }
-  .pos-6 { margin-top: 40px; }
-}
-
 /* --- Tablero absoluto --- */
 .tablero {
   position: relative;
-  min-height: 600px;
+  min-height: 700px;
   padding: 80px 0 120px;
 }
 
@@ -183,4 +171,64 @@ footer {
 
 .proyecto:hover .proyecto-nombre {
   color: var(--fg);
+}
+
+/* --- Responsive --- */
+@media (max-width: 1024px) {
+  .tablero {
+    min-height: 800px;
+  }
+
+  .proyecto {
+    transform: scale(0.75);
+    transform-origin: top left;
+  }
+
+  .proyecto-nombre {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .tablero {
+    min-height: 1100px;
+    padding: 80px 0 120px;
+  }
+
+  .proyecto {
+    transform: scale(0.65);
+    transform-origin: top left;
+  }
+
+  .proyecto-nombre {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tablero {
+    min-height: 1400px;
+    padding: 80px 0 120px;
+  }
+
+  .proyecto {
+    transform: scale(0.55);
+    transform-origin: top left;
+  }
+
+  .proyecto-nombre {
+    font-size: 10px;
+  }
+
+  header {
+    padding: 16px var(--page-padding);
+  }
+
+  .site-nombre {
+    font-size: 12px;
+  }
+
+  .nav-link {
+    font-size: 10px;
+  }
 }
