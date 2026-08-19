@@ -72,14 +72,6 @@ header {
 .nav-link:hover,
 .nav-link.active { color: var(--fg); }
 
-/* --- Tablero --- */
-.tablero {
-  padding: 100px var(--page-padding) 80px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 48px 40px;
-  align-items: flex-start;
-}
 
 .proyecto {
   display: block;
