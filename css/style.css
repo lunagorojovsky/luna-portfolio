@@ -185,22 +185,53 @@ footer {
     transform: scale(0.50);
     transform-origin: top left;
   }
-   
+
+   /* 1. London Dyke March */
   .proyecto:nth-child(1) { left: 2% !important; top: 80px !important; }
+
+   /* 2. Hospital Borda */
   .proyecto:nth-child(2) { left: 8% !important; top: 400px !important; }
-  .proyecto:nth-child(3) { left: 4% !important; top: 650px !important; }
+
+   /* 3. El Origen de los Fantasmas */
+  .proyecto:nth-child(3) { left: 3% !important; top: 650px !important; }
+
+   /* 4. Juana Para Cascara */
   .proyecto:nth-child(4) { left: 14% !important; top: 640px !important; }
+
+   /* 5. Dyke March super 8 */
   .proyecto:nth-child(5) { left: 8% !important; top: 1120px !important; }
+
+   /* 6. Exposiciones */
   .proyecto:nth-child(6) { left: 10% !important; top: 1380px !important; }
+
+   /* 7. 8ABLA */
   .proyecto:nth-child(7) { left: 18% !important; top: 160px !important; }
+
+   /* 8. Ampliaciones Intervenidas */
   .proyecto:nth-child(8) { left: 8% !important; top: 1930px !important; }
+
+   /* 9. Juana y Camila */
   .proyecto:nth-child(9) { left: 10% !important; top: 2220px !important; }
+
+   /* 10. Ecos */
   .proyecto:nth-child(10) { left: 5% !important; top: 2500px !important; }
+
+   /* 11. Sin Titulo 16mm */
   .proyecto:nth-child(11) { left: 8% !important; top: 2810px !important; }
+
+   /* 12. Diario */
   .proyecto:nth-child(12) { left: 10% !important; top: 3100px !important; }
+
+   /* 13. Des Bosques Encantados */
   .proyecto:nth-child(13) { left: 5% !important; top: 3380px !important; }
+
+   /* 14. Codigos por Cascara */
   .proyecto:nth-child(14) { left: 8% !important; top: 3700px !important; }
+
+   /* 15. Berlin S8  */
   .proyecto:nth-child(15) { left: 10% !important; top: 3980px !important; }
+
+   /* 16. Bowen */
   .proyecto:nth-child(16) { left: 5% !important; top: 4160px !important; }
 
   .tablero {
