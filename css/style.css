@@ -182,7 +182,7 @@ footer {
 @media (max-width: 768px) {
 
      .proyecto {
-    transform: scale(0.60);
+    transform: scale(0.50);
     transform-origin: top left;
   }
    
@@ -192,7 +192,7 @@ footer {
   .proyecto:nth-child(4) { left: 5% !important; top: 810px !important; }
   .proyecto:nth-child(5) { left: 8% !important; top: 1120px !important; }
   .proyecto:nth-child(6) { left: 10% !important; top: 1380px !important; }
-  .proyecto:nth-child(7) { left: 5% !important; top: 1630px !important; }
+  .proyecto:nth-child(7) { left: 16% !important; top: 120px !important; }
   .proyecto:nth-child(8) { left: 8% !important; top: 1930px !important; }
   .proyecto:nth-child(9) { left: 10% !important; top: 2220px !important; }
   .proyecto:nth-child(10) { left: 5% !important; top: 2500px !important; }
