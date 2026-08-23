@@ -186,7 +186,7 @@ footer {
     transform-origin: top left;
   }
    
-  .proyecto:nth-child(1) { left: 5% !important; top: 50px !important; }
+  .proyecto:nth-child(1) { left: 2% !important; top: 80px !important; }
   .proyecto:nth-child(2) { left: 8% !important; top: 310px !important; }
   .proyecto:nth-child(3) { left: 10% !important; top: 600px !important; }
   .proyecto:nth-child(4) { left: 5% !important; top: 810px !important; }
