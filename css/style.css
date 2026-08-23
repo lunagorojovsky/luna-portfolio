@@ -182,7 +182,7 @@ footer {
 @media (max-width: 768px) {
 
      .proyecto {
-    transform: scale(0.85);
+    transform: scale(0.70);
     transform-origin: top left;
   }
    
