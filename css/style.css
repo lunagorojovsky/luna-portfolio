@@ -180,7 +180,12 @@ footer {
 
 /* --- Responsive Mobile --- */
 @media (max-width: 768px) {
-  
+
+     .proyecto {
+    transform: scale(0.85);
+    transform-origin: top left;
+  }
+   
   .proyecto:nth-child(1) { left: 5% !important; top: 50px !important; }
   .proyecto:nth-child(2) { left: 8% !important; top: 310px !important; }
   .proyecto:nth-child(3) { left: 10% !important; top: 600px !important; }
