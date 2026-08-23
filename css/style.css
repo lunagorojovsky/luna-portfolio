@@ -181,120 +181,24 @@ footer {
 /* --- Responsive Mobile --- */
 @media (max-width: 768px) {
   
-  /* 1. London Dyke March */
-  .proyecto:nth-child(1) {
-    left: 5% !important;
-    top: 50px !important;
-    width: 140px !important;
-  }
+  .proyecto:nth-child(1) { left: 5% !important; top: 50px !important; }
+  .proyecto:nth-child(2) { left: 8% !important; top: 310px !important; }
+  .proyecto:nth-child(3) { left: 10% !important; top: 600px !important; }
+  .proyecto:nth-child(4) { left: 5% !important; top: 810px !important; }
+  .proyecto:nth-child(5) { left: 8% !important; top: 1120px !important; }
+  .proyecto:nth-child(6) { left: 10% !important; top: 1380px !important; }
+  .proyecto:nth-child(7) { left: 5% !important; top: 1630px !important; }
+  .proyecto:nth-child(8) { left: 8% !important; top: 1930px !important; }
+  .proyecto:nth-child(9) { left: 10% !important; top: 2220px !important; }
+  .proyecto:nth-child(10) { left: 5% !important; top: 2500px !important; }
+  .proyecto:nth-child(11) { left: 8% !important; top: 2810px !important; }
+  .proyecto:nth-child(12) { left: 10% !important; top: 3100px !important; }
+  .proyecto:nth-child(13) { left: 5% !important; top: 3380px !important; }
+  .proyecto:nth-child(14) { left: 8% !important; top: 3700px !important; }
+  .proyecto:nth-child(15) { left: 10% !important; top: 3980px !important; }
+  .proyecto:nth-child(16) { left: 5% !important; top: 4160px !important; }
 
-  /* 2. Hospital Borda */
-  .proyecto:nth-child(2) {
-    left: 10% !important;
-    top: 280px !important;
-    width: 200px !important;
-  }
-
-  /* 3. El Origen de los Fantasmas */
-  .proyecto:nth-child(3) {
-    left: 8% !important;
-    top: 530px !important;
-    width: 150px !important;
-  }
-
-  /* 4. Juana para Cáscara */
-  .proyecto:nth-child(4) {
-    left: 12% !important;
-    top: 750px !important;
-    width: 180px !important;
-  }
-
-  /* 5. London Dyke March S8mm */
-  .proyecto:nth-child(5) {
-    left: 5% !important;
-    top: 1000px !important;
-    width: 180px !important;
-  }
-
-  /* 6. Exposiciones */
-  .proyecto:nth-child(6) {
-    left: 10% !important;
-    top: 1220px !important;
-    width: 150px !important;
-  }
-
-  /* 7. 8 Años Bajo la Alfombra */
-  .proyecto:nth-child(7) {
-    left: 8% !important;
-    top: 1450px !important;
-    width: 180px !important;
-  }
-
-  /* 8. Ampliaciones Intervenidas */
-  .proyecto:nth-child(8) {
-    left: 12% !important;
-    top: 1720px !important;
-    width: 200px !important;
-  }
-
-  /* 9. Juana & Camila */
-  .proyecto:nth-child(9) {
-    left: 7% !important;
-    top: 1980px !important;
-    width: 200px !important;
-  }
-
-  /* 10. Ecos */
-  .proyecto:nth-child(10) {
-    left: 10% !important;
-    top: 2260px !important;
-    width: 200px !important;
-  }
-
-  /* 11. Sin Título 16mm & digital */
-  .proyecto:nth-child(11) {
-    left: 8% !important;
-    top: 2530px !important;
-    width: 200px !important;
-  }
-
-  /* 12. Diario */
-  .proyecto:nth-child(12) {
-    left: 12% !important;
-    top: 2800px !important;
-    width: 200px !important;
-  }
-
-  /* 13. De Bosques Encantados */
-  .proyecto:nth-child(13) {
-    left: 10% !important;
-    top: 3070px !important;
-    width: 200px !important;
-  }
-
-  /* 14. Códigos por Cáscara */
-  .proyecto:nth-child(14) {
-    left: 7% !important;
-    top: 3350px !important;
-    width: 200px !important;
-  }
-
-  /* 15. Berlin S8mm */
-  .proyecto:nth-child(15) {
-    left: 12% !important;
-    top: 3620px !important;
-    width: 120px !important;
-  }
-
-  /* 16. Bowen */
-  .proyecto:nth-child(16) {
-    left: 10% !important;
-    top: 3800px !important;
-    width: 140px !important;
-  }
-
-  /* Ajusta el tablero para mobile */
   .tablero {
-    min-height: 4100px;
+    min-height: 4500px;
   }
 }
