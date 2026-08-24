@@ -180,9 +180,9 @@ footer {
 
 /* --- Responsive Mobile --- */
 @media (max-width: 768px) {
-
-     .proyecto {
-    transform: scale(0.30);
+  
+  .proyecto {
+    transform: scale(0.30) !important;
     transform-origin: top left;
   }
 
