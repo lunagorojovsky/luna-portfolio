@@ -182,12 +182,12 @@ footer {
 @media (max-width: 768px) {
 
    /* 1. London Dyke March */
-  .proyecto:nth-child(1) { left: 2% !important; top: 80px !important;
+  .proyecto:nth-child(1) { left: 1% !important; top: 75px !important;
                           transform: scale(0.70) !important;
   }
 
    /* 2. Hospital Borda */
-  .proyecto:nth-child(2) { left: 8% !important; top: 400px !important; 
+  .proyecto:nth-child(2) { left: 6% !important; top: 370px !important; 
                          transform: scale(0.70) !important;
   }
 
@@ -212,7 +212,7 @@ footer {
   }
 
    /* 7. 8ABLA */
-  .proyecto:nth-child(7) { left: 18% !important; top: 160px !important;
+  .proyecto:nth-child(7) { left: 15% !important; top: 150px !important;
                          transform: scale(0.70) !important;
    }
 
