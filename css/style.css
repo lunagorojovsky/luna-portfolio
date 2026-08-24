@@ -196,10 +196,10 @@ footer {
   .proyecto:nth-child(3) { left: 3% !important; top: 650px !important; }
 
    /* 4. Juana Para Cascara */
-  .proyecto:nth-child(4) { left: 14% !important; top: 640px !important; }
+  .proyecto:nth-child(4) { left: 20% !important; top: 640px !important; }
 
    /* 5. Dyke March super 8 */
-  .proyecto:nth-child(5) { left: 8% !important; top: 1120px !important; }
+  .proyecto:nth-child(5) { left: 8% !important; top: 950px !important; }
 
    /* 6. Exposiciones */
   .proyecto:nth-child(6) { left: 10% !important; top: 1380px !important; }
@@ -217,7 +217,7 @@ footer {
   .proyecto:nth-child(10) { left: 5% !important; top: 2500px !important; }
 
    /* 11. Sin Titulo 16mm */
-  .proyecto:nth-child(11) { left: 8% !important; top: 2810px !important; }
+  .proyecto:nth-child(11) { left: 3% !important; top: 1300px !important; }
 
    /* 12. Diario */
   .proyecto:nth-child(12) { left: 10% !important; top: 3100px !important; }
