@@ -180,29 +180,36 @@ footer {
 
 /* --- Responsive Mobile --- */
 @media (max-width: 768px) {
-  
-  .proyecto {
-    transform: scale(0.30) !important;
-    transform-origin: top left;
-  }
 
    /* 1. London Dyke March */
-  .proyecto:nth-child(1) { left: 2% !important; top: 80px !important; }
+  .proyecto:nth-child(1) { left: 2% !important; top: 80px !important;
+                          transform: scale(0.30) !important;
+  }
 
    /* 2. Hospital Borda */
-  .proyecto:nth-child(2) { left: 8% !important; top: 400px !important; }
+  .proyecto:nth-child(2) { left: 8% !important; top: 400px !important; 
+                         transform: scale(0.30) !important;
+  }
 
    /* 3. El Origen de los Fantasmas */
-  .proyecto:nth-child(3) { left: 3% !important; top: 650px !important; }
+  .proyecto:nth-child(3) { left: 3% !important; top: 650px !important;
+                         transform: scale(0.30) !important;
+  }
 
    /* 4. Juana Para Cascara */
-  .proyecto:nth-child(4) { left: 20% !important; top: 640px !important; }
+  .proyecto:nth-child(4) { left: 20% !important; top: 640px !important;
+                         transform: scale(0.30) !important;
+  }
 
    /* 5. Dyke March super 8 */
-  .proyecto:nth-child(5) { left: 8% !important; top: 950px !important; }
+  .proyecto:nth-child(5) { left: 8% !important; top: 950px !important; 
+                         transform: scale(0.30) !important;
+  }
 
    /* 6. Exposiciones */
-  .proyecto:nth-child(6) { left: 10% !important; top: 1380px !important; }
+  .proyecto:nth-child(6) { left: 10% !important; top: 1380px !important; 
+                         transform: scale(0.30) !important;
+  }
 
    /* 7. 8ABLA */
   .proyecto:nth-child(7) { left: 18% !important; top: 160px !important; }
