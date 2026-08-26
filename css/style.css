@@ -230,7 +230,7 @@ footer {
    }
 
    /* 8. Ampliaciones Intervenidas */
-  .proyecto:nth-child(8) { left: 20% !important; top: 950px !important; 
+  .proyecto:nth-child(8) { left: 18% !important; top: 1320px !important; 
                          transform: scale(0.60) !important;
   }
 
@@ -240,12 +240,12 @@ footer {
   }
 
    /* 10. Ecos */
-  .proyecto:nth-child(10) { left: 0% !important; top: 980px !important;
-                          transform: scale(0.70) !important;
+  .proyecto:nth-child(10) { left: 20% !important; top: 950px !important;
+                          transform: scale(0.60) !important;
   }
 
    /* 11. Sin Titulo 16mm */
-  .proyecto:nth-child(11) { left: 3% !important; top: 790px !important; 
+  .proyecto:nth-child(11) { left: 0% !important; top: 980px !important; 
                           transform: scale(0.70) !important;
   }
 
@@ -275,7 +275,7 @@ footer {
   }
 
    /* 17. Anagama Estonia */
-  .proyecto:nth-child(17) { left: 5% !important; top: 4160px !important; 
+  .proyecto:nth-child(17) { left: 3% !important; top: 790px !important; 
                           transform: scale(0.70) !important;
   }
 
