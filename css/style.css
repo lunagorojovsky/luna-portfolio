@@ -187,7 +187,7 @@ footer {
   }
 
    /* 2. Hospital Borda */
-  .proyecto:nth-child(2) { left: 3% !important; top: 335px !important; 
+  .proyecto:nth-child(2) { left: 3% !important; top: 315px !important; 
                          transform: scale(0.70) !important;
   }
 
@@ -197,7 +197,7 @@ footer {
   }
 
    /* 4. Juana Para Cascara */
-  .proyecto:nth-child(4) { left: 18% !important; top: 590px !important;
+  .proyecto:nth-child(4) { left: 18% !important; top: 570px !important;
                          transform: scale(0.70) !important;
   }
 
@@ -232,7 +232,7 @@ footer {
   }
 
    /* 11. Sin Titulo 16mm */
-  .proyecto:nth-child(11) { left: 3% !important; top: 780px !important; 
+  .proyecto:nth-child(11) { left: 3% !important; top: 790px !important; 
                           transform: scale(0.70) !important;
   }
 
