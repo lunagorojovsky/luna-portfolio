@@ -274,6 +274,11 @@ footer {
                           transform: scale(0.70) !important;
   }
 
+   /* 17. Anagama Estonia */
+  .proyecto:nth-child(17) { left: 5% !important; top: 4160px !important; 
+                          transform: scale(0.70) !important;
+  }
+
   .tablero {
     min-height: 4500px;
   }
