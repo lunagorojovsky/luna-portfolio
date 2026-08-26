@@ -250,12 +250,12 @@ footer {
   }
 
    /* 12. Diario */
-  .proyecto:nth-child(12) { left: 8% !important; top: 1480px !important;
+  .proyecto:nth-child(12) { left: 6% !important; top: 1480px !important;
                           transform: scale(0.70) !important;
   }
 
    /* 13. Des Bosques Encantados */
-  .proyecto:nth-child(13) { left: 5% !important; top: 1590px !important; 
+  .proyecto:nth-child(13) { left: 12% !important; top: 1630px !important; 
                           transform: scale(0.70) !important;
   }
 
@@ -270,7 +270,7 @@ footer {
   }
 
    /* 16. Bowen */
-  .proyecto:nth-child(16) { left: 15% !important; top: 1500px !important; 
+  .proyecto:nth-child(16) { left: 22% !important; top: 1500px !important; 
                           transform: scale(0.70) !important;
   }
 
