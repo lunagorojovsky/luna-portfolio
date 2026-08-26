@@ -197,12 +197,12 @@ footer {
   }
 
    /* 4. Juana Para Cascara */
-  .proyecto:nth-child(4) { left: 18% !important; top: 620px !important;
+  .proyecto:nth-child(4) { left: 18% !important; top: 590px !important;
                          transform: scale(0.70) !important;
   }
 
    /* 5. Dyke March super 8 */
-  .proyecto:nth-child(5) { left: 1.5% !important; top: 480px !important; 
+  .proyecto:nth-child(5) { left: 1.5% !important; top: 500px !important; 
                          transform: scale(0.70) !important;
   }
 
