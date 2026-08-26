@@ -193,7 +193,7 @@ footer {
   }
 
    /* 2. Hospital Borda */
-  .proyecto:nth-child(2) { left: 3% !important; top: 300px !important; 
+  .proyecto:nth-child(2) { left: 2.5% !important; top: 300px !important; 
                          transform: scale(0.70) !important;
   }
 
@@ -223,12 +223,12 @@ footer {
    }
 
    /* 8. Ampliaciones Intervenidas */
-  .proyecto:nth-child(8) { left: 21% !important; top: 950px !important; 
+  .proyecto:nth-child(8) { left: 20% !important; top: 950px !important; 
                          transform: scale(0.60) !important;
   }
 
    /* 9. Juana y Camila */
-  .proyecto:nth-child(9) { left: 10% !important; top: 2220px !important; 
+  .proyecto:nth-child(9) { left: 0% !important; top: 1200px !important; 
                          transform: scale(0.70) !important;
   }
 
