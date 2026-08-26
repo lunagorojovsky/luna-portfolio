@@ -230,7 +230,7 @@ footer {
    }
 
    /* 8. Ampliaciones Intervenidas */
-  .proyecto:nth-child(8) { left: 18% !important; top: 1320px !important; 
+  .proyecto:nth-child(8) { left: 18.5% !important; top: 1320px !important; 
                          transform: scale(0.55) !important;
   }
 
@@ -250,12 +250,12 @@ footer {
   }
 
    /* 12. Diario */
-  .proyecto:nth-child(12) { left: 6% !important; top: 1480px !important;
+  .proyecto:nth-child(12) { left: 6% !important; top: 1510px !important;
                           transform: scale(0.70) !important;
   }
 
    /* 13. Des Bosques Encantados */
-  .proyecto:nth-child(13) { left: 12% !important; top: 1630px !important; 
+  .proyecto:nth-child(13) { left: 4% !important; top: 1660px !important; 
                           transform: scale(0.70) !important;
   }
 
@@ -270,7 +270,7 @@ footer {
   }
 
    /* 16. Bowen */
-  .proyecto:nth-child(16) { left: 22% !important; top: 1500px !important; 
+  .proyecto:nth-child(16) { left: 24% !important; top: 1500px !important; 
                           transform: scale(0.70) !important;
   }
 
