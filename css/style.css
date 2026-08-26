@@ -211,7 +211,7 @@ footer {
 
    /* 4. Juana Para Cascara */
   .proyecto:nth-child(4) { left: 18% !important; top: 550px !important;
-                         transform: scale(0.70) !important;
+                         transform: scale(0.80) !important;
   }
 
    /* 5. Dyke March super 8 */
@@ -266,7 +266,7 @@ footer {
 
    /* 15. Berlin S8  */
   .proyecto:nth-child(15) { left: 23% !important; top: 345px !important; 
-                          transform: scale(0.70) !important;
+                          transform: scale(0.80) !important;
   }
 
    /* 16. Bowen */
