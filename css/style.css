@@ -182,7 +182,7 @@ footer {
 @media (max-width: 768px) {
 
    /* 1. London Dyke March */
-  .proyecto:nth-child(1) { left: 0.2% !important; top: 60px !important;
+  .proyecto:nth-child(1) { left: 0% !important; top: 60px !important;
                           transform: scale(0.70) !important;
   }
 
@@ -192,7 +192,7 @@ footer {
   }
 
    /* 3. El Origen de los Fantasmas */
-  .proyecto:nth-child(3) { left: 1% !important; top: 670px !important;
+  .proyecto:nth-child(3) { left: 0.2% !important; top: 670px !important;
                          transform: scale(0.70) !important;
   }
 
