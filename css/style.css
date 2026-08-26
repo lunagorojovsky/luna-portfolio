@@ -181,6 +181,12 @@ footer {
 /* --- Responsive Mobile --- */
 @media (max-width: 768px) {
 
+   .tablero {
+    padding-left: 0;
+    padding-right: 0;
+    min-height: 5500px;
+  }
+
    /* 1. London Dyke March */
   .proyecto:nth-child(1) { left: 0% !important; top: 60px !important;
                           transform: scale(0.70) !important;
