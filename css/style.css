@@ -187,7 +187,7 @@ footer {
   }
 
    /* 2. Hospital Borda */
-  .proyecto:nth-child(2) { left: 6% !important; top: 370px !important; 
+  .proyecto:nth-child(2) { left: 4% !important; top: 350px !important; 
                          transform: scale(0.70) !important;
   }
 
