@@ -231,7 +231,7 @@ footer {
 
    /* 8. Ampliaciones Intervenidas */
   .proyecto:nth-child(8) { left: 18% !important; top: 1320px !important; 
-                         transform: scale(0.60) !important;
+                         transform: scale(0.55) !important;
   }
 
    /* 9. Juana y Camila */
@@ -240,8 +240,8 @@ footer {
   }
 
    /* 10. Ecos */
-  .proyecto:nth-child(10) { left: 0% !important; top: 1310px !important;
-                          transform: scale(0.70) !important;
+  .proyecto:nth-child(10) { left: 0% !important; top: 1330px !important;
+                          transform: scale(0.80) !important;
   }
 
    /* 11. Sin Titulo 16mm */
