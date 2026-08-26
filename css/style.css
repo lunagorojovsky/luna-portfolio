@@ -235,7 +235,7 @@ footer {
   }
 
    /* 9. Juana y Camila */
-  .proyecto:nth-child(9) { left: 0% !important; top: 1300px !important; 
+  .proyecto:nth-child(9) { left: 0% !important; top: 1310px !important; 
                          transform: scale(0.70) !important;
   }
 
@@ -250,7 +250,7 @@ footer {
   }
 
    /* 12. Diario */
-  .proyecto:nth-child(12) { left: 8% !important; top: 1350px !important;
+  .proyecto:nth-child(12) { left: 8% !important; top: 1400px !important;
                           transform: scale(0.70) !important;
   }
 
