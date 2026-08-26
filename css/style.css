@@ -213,8 +213,8 @@ footer {
   }
 
    /* 6. Exposiciones */
-  .proyecto:nth-child(6) { left: 2% !important; top: 1170px !important; 
-                         transform: scale(0.70) !important;
+  .proyecto:nth-child(6) { left: 1% !important; top: 1170px !important; 
+                         transform: scale(0.60) !important;
   }
 
    /* 7. 8ABLA */
@@ -224,7 +224,7 @@ footer {
 
    /* 8. Ampliaciones Intervenidas */
   .proyecto:nth-child(8) { left: 21% !important; top: 950px !important; 
-                         transform: scale(0.70) !important;
+                         transform: scale(0.60) !important;
   }
 
    /* 9. Juana y Camila */
@@ -233,7 +233,7 @@ footer {
   }
 
    /* 10. Ecos */
-  .proyecto:nth-child(10) { left: 0.1% !important; top: 980px !important;
+  .proyecto:nth-child(10) { left: 0% !important; top: 980px !important;
                           transform: scale(0.70) !important;
   }
 
