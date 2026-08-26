@@ -232,7 +232,7 @@ footer {
   }
 
    /* 11. Sin Titulo 16mm */
-  .proyecto:nth-child(11) { left: 3% !important; top: 1300px !important; 
+  .proyecto:nth-child(11) { left: 3% !important; top: 780px !important; 
                           transform: scale(0.70) !important;
   }
 
