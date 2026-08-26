@@ -235,13 +235,13 @@ footer {
   }
 
    /* 9. Juana y Camila */
-  .proyecto:nth-child(9) { left: 20% !important; top: 950px !important; 
+  .proyecto:nth-child(9) { left: 19% !important; top: 960px !important; 
                          transform: scale(0.60) !important;
   }
 
    /* 10. Ecos */
   .proyecto:nth-child(10) { left: 0% !important; top: 1310px !important;
-                          transform: scale(0.60) !important;
+                          transform: scale(0.70) !important;
   }
 
    /* 11. Sin Titulo 16mm */
