@@ -217,7 +217,7 @@ footer {
    }
 
    /* 8. Ampliaciones Intervenidas */
-  .proyecto:nth-child(8) { left: 19% !important; top: 950px !important; 
+  .proyecto:nth-child(8) { left: 20% !important; top: 950px !important; 
                          transform: scale(0.70) !important;
   }
 
@@ -227,7 +227,7 @@ footer {
   }
 
    /* 10. Ecos */
-  .proyecto:nth-child(10) { left: 1.2% !important; top: 910px !important;
+  .proyecto:nth-child(10) { left: 0.6% !important; top: 990px !important;
                           transform: scale(0.70) !important;
   }
 
@@ -247,7 +247,7 @@ footer {
   }
 
    /* 14. Codigos por Cascara */
-  .proyecto:nth-child(14) { left: 17% !important; top: 1100px !important;
+  .proyecto:nth-child(14) { left: 16% !important; top: 1130px !important;
                           transform: scale(0.70) !important;
   }
 
