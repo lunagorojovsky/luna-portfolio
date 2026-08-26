@@ -188,12 +188,12 @@ footer {
   }
 
    /* 1. London Dyke March */
-  .proyecto:nth-child(1) { left: 0% !important; top: 60px !important;
+  .proyecto:nth-child(1) { left: 0% !important; top: 50px !important;
                           transform: scale(0.70) !important;
   }
 
    /* 2. Hospital Borda */
-  .proyecto:nth-child(2) { left: 3% !important; top: 315px !important; 
+  .proyecto:nth-child(2) { left: 3% !important; top: 300px !important; 
                          transform: scale(0.70) !important;
   }
 
@@ -213,17 +213,17 @@ footer {
   }
 
    /* 6. Exposiciones */
-  .proyecto:nth-child(6) { left: 10% !important; top: 1380px !important; 
+  .proyecto:nth-child(6) { left: 2% !important; top: 1170px !important; 
                          transform: scale(0.70) !important;
   }
 
    /* 7. 8ABLA */
-  .proyecto:nth-child(7) { left: 14% !important; top: 130px !important;
+  .proyecto:nth-child(7) { left: 14% !important; top: 110px !important;
                          transform: scale(0.70) !important;
    }
 
    /* 8. Ampliaciones Intervenidas */
-  .proyecto:nth-child(8) { left: 20% !important; top: 950px !important; 
+  .proyecto:nth-child(8) { left: 21% !important; top: 950px !important; 
                          transform: scale(0.70) !important;
   }
 
@@ -233,7 +233,7 @@ footer {
   }
 
    /* 10. Ecos */
-  .proyecto:nth-child(10) { left: 0.6% !important; top: 990px !important;
+  .proyecto:nth-child(10) { left: 0.1% !important; top: 980px !important;
                           transform: scale(0.70) !important;
   }
 
@@ -253,12 +253,12 @@ footer {
   }
 
    /* 14. Codigos por Cascara */
-  .proyecto:nth-child(14) { left: 16% !important; top: 1130px !important;
+  .proyecto:nth-child(14) { left: 16% !important; top: 1150px !important;
                           transform: scale(0.70) !important;
   }
 
    /* 15. Berlin S8  */
-  .proyecto:nth-child(15) { left: 23% !important; top: 360px !important; 
+  .proyecto:nth-child(15) { left: 23% !important; top: 345px !important; 
                           transform: scale(0.70) !important;
   }
 
