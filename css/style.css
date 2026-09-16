@@ -271,12 +271,12 @@ footer {
   }
 
    /* 15. Berlin S8  */
-  .proyecto:nth-child(15) { left: 79% !important; top: 810px !important; 
+  .proyecto:nth-child(15) { left: 79% !important; top: 840px !important; 
                           transform: scale(0.80) !important;
   }
 
    /* 16. Bowen */
-  .proyecto:nth-child(16) { left: 74% !important; top: 1500px !important; 
+  .proyecto:nth-child(16) { left: 77% !important; top: 1500px !important; 
                           transform: scale(0.70) !important;
   }
 
@@ -286,6 +286,6 @@ footer {
   }
 
    /* 18. Anagama Super8 */
-  .proyecto:nth-child(18) { left: 69% !important; top: 335px !important; 
+  .proyecto:nth-child(18) { left: 67% !important; top: 335px !important; 
                           transform: scale(0.80) !important;
   }
