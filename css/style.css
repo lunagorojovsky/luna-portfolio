@@ -215,7 +215,7 @@ footer {
   }
 
    /* 4. Juana Para Cascara */
-  .proyecto:nth-child(4) { left: 50% !important; top: 550px !important;
+  .proyecto:nth-child(4) { left: 54% !important; top: 550px !important;
                          transform: scale(0.80) !important;
   }
 
@@ -251,7 +251,7 @@ footer {
 
    /* 11. Sin Titulo 16mm */
   .proyecto:nth-child(11) { left: 0% !important; top: 980px !important; 
-                          transform: scale(0.70) !important;
+                          transform: scale(0.75) !important;
   }
 
    /* 12. Diario */
@@ -270,7 +270,7 @@ footer {
   }
 
    /* 15. Berlin S8  */
-  .proyecto:nth-child(15) { left: 69% !important; top: 345px !important; 
+  .proyecto:nth-child(15) { left: 75% !important; top: 345px !important; 
                           transform: scale(0.80) !important;
   }
 
