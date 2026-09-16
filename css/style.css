@@ -271,7 +271,7 @@ footer {
   }
 
    /* 15. Berlin S8  */
-  .proyecto:nth-child(15) { left: 71% !important; top: 345px !important; 
+  .proyecto:nth-child(15) { left: 79% !important; top: 810px !important; 
                           transform: scale(0.80) !important;
   }
 
@@ -283,4 +283,9 @@ footer {
    /* 17. Anagama Estonia */
   .proyecto:nth-child(17) { left: 3% !important; top: 790px !important; 
                           transform: scale(0.70) !important;
+  }
+
+   /* 18. Anagama Super8 */
+  .proyecto:nth-child(18) { left: 69% !important; top: 335px !important; 
+                          transform: scale(0.80) !important;
   }
