@@ -235,12 +235,12 @@ footer {
    }
 
    /* 8. Ampliaciones Intervenidas */
-  .proyecto:nth-child(8) { left: 18.5% !important; top: 1320px !important; 
+  .proyecto:nth-child(8) { left: 77% !important; top: 1320px !important; 
                          transform: scale(0.55) !important;
   }
 
    /* 9. Juana y Camila */
-  .proyecto:nth-child(9) { left: 19% !important; top: 960px !important; 
+  .proyecto:nth-child(9) { left: 70% !important; top: 960px !important; 
                          transform: scale(0.60) !important;
   }
 
@@ -265,7 +265,7 @@ footer {
   }
 
    /* 14. Codigos por Cascara */
-  .proyecto:nth-child(14) { left: 16% !important; top: 1150px !important;
+  .proyecto:nth-child(14) { left: 65% !important; top: 1150px !important;
                           transform: scale(0.70) !important;
   }
 
@@ -275,7 +275,7 @@ footer {
   }
 
    /* 16. Bowen */
-  .proyecto:nth-child(16) { left: 24% !important; top: 1500px !important; 
+  .proyecto:nth-child(16) { left: 74% !important; top: 1500px !important; 
                           transform: scale(0.70) !important;
   }
 
