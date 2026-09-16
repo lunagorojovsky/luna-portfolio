@@ -191,14 +191,14 @@ footer {
 }
 
   .tablero {
-    width: 100%;
-    min-width: 0;
-    max-width: 100%;
-    min-height: 1900px;
-    padding-left: 0;
-    padding-right: 0;
-    overflow: hidden;
-  }
+  width: 115vw;
+  min-width: 115vw;
+  max-width: none;
+  min-height: 1900px;
+  padding-left: 0;
+  padding-right: 0;
+  overflow: visible;
+}
 
    /* 1. London Dyke March */
   .proyecto:nth-child(1) { left: 0% !important; top: 50px !important;
