@@ -256,7 +256,7 @@ footer {
   }
 
    /* 12. Diario */
-  .proyecto:nth-child(12) { left: 10% !important; top: 1525px !important;
+  .proyecto:nth-child(12) { left: 12% !important; top: 1525px !important;
                           transform: scale(0.70) !important;
   }
 
@@ -291,6 +291,6 @@ footer {
   }
 
 /* 19. Retratos Super8 */
-  .proyecto:nth-child(19) { left: 73% !important; top: 75px !important; 
+  .proyecto:nth-child(19) { left: 72% !important; top: 65px !important; 
                           transform: scale(0.50) !important;
   }
