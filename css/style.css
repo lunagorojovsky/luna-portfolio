@@ -231,7 +231,7 @@ footer {
   }
 
    /* 7. 8ABLA */
-  .proyecto:nth-child(7) { left: 33% !important; top: 110px !important;
+  .proyecto:nth-child(7) { left: 31% !important; top: 110px !important;
                          transform: scale(0.70) !important;
    }
 
@@ -292,5 +292,5 @@ footer {
 
 /* 19. Retratos Super8 */
   .proyecto:nth-child(19) { left: 73% !important; top: 90px !important; 
-                          transform: scale(0.60) !important;
+                          transform: scale(0.50) !important;
   }
