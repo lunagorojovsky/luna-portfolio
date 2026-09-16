@@ -289,3 +289,8 @@ footer {
   .proyecto:nth-child(18) { left: 63% !important; top: 335px !important; 
                           transform: scale(0.80) !important;
   }
+
+/* 19. Retratos Super8 */
+  .proyecto:nth-child(19) { left: 73% !important; top: 90px !important; 
+                          transform: scale(0.60) !important;
+  }
