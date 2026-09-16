@@ -236,7 +236,7 @@ footer {
    }
 
    /* 8. Ampliaciones Intervenidas */
-  .proyecto:nth-child(8) { left: 72% !important; top: 1520px !important; 
+  .proyecto:nth-child(8) { left: 68% !important; top: 1570px !important; 
                          transform: scale(0.55) !important;
   }
 
@@ -251,7 +251,7 @@ footer {
   }
 
    /* 11. Sin Titulo 16mm */
-  .proyecto:nth-child(11) { left: 0% !important; top: 980px !important; 
+  .proyecto:nth-child(11) { left: 0% !important; top: 990px !important; 
                           transform: scale(0.75) !important;
   }
 
@@ -271,7 +271,7 @@ footer {
   }
 
    /* 15. Berlin S8  */
-  .proyecto:nth-child(15) { left: 79% !important; top: 840px !important; 
+  .proyecto:nth-child(15) { left: 83% !important; top: 840px !important; 
                           transform: scale(0.80) !important;
   }
 
