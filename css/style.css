@@ -221,7 +221,7 @@ footer {
   }
 
    /* 5. Dyke March super 8 */
-  .proyecto:nth-child(5) { left: 1.5% !important; top: 500px !important; 
+  .proyecto:nth-child(5) { left: 1.5% !important; top: 490px !important; 
                          transform: scale(0.70) !important;
   }
 
@@ -271,7 +271,7 @@ footer {
   }
 
    /* 15. Berlin S8  */
-  .proyecto:nth-child(15) { left: 75% !important; top: 345px !important; 
+  .proyecto:nth-child(15) { left: 71% !important; top: 345px !important; 
                           transform: scale(0.80) !important;
   }
 
