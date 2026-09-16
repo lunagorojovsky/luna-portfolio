@@ -236,17 +236,17 @@ footer {
    }
 
    /* 8. Ampliaciones Intervenidas */
-  .proyecto:nth-child(8) { left: 77% !important; top: 1320px !important; 
+  .proyecto:nth-child(8) { left: 72% !important; top: 1320px !important; 
                          transform: scale(0.55) !important;
   }
 
    /* 9. Juana y Camila */
-  .proyecto:nth-child(9) { left: 70% !important; top: 960px !important; 
+  .proyecto:nth-child(9) { left: 65% !important; top: 960px !important; 
                          transform: scale(0.60) !important;
   }
 
    /* 10. Ecos */
-  .proyecto:nth-child(10) { left: 0% !important; top: 1330px !important;
+  .proyecto:nth-child(10) { left: 0% !important; top: 1340px !important;
                           transform: scale(0.80) !important;
   }
 
@@ -256,17 +256,17 @@ footer {
   }
 
    /* 12. Diario */
-  .proyecto:nth-child(12) { left: 5% !important; top: 1520px !important;
+  .proyecto:nth-child(12) { left: 5% !important; top: 1525px !important;
                           transform: scale(0.70) !important;
   }
 
    /* 13. Des Bosques Encantados */
-  .proyecto:nth-child(13) { left: 0% !important; top: 1680px !important; 
+  .proyecto:nth-child(13) { left: 0% !important; top: 1685px !important; 
                           transform: scale(0.70) !important;
   }
 
    /* 14. Codigos por Cascara */
-  .proyecto:nth-child(14) { left: 65% !important; top: 1150px !important;
+  .proyecto:nth-child(14) { left: 62% !important; top: 1150px !important;
                           transform: scale(0.70) !important;
   }
 
