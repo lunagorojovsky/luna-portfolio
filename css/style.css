@@ -211,7 +211,7 @@ footer {
   }
 
    /* 3. El Origen de los Fantasmas */
-  .proyecto:nth-child(3) { left: 3% !important; top: 670px !important;
+  .proyecto:nth-child(3) { left: 5% !important; top: 670px !important;
                          transform: scale(0.80) !important;
   }
 
@@ -251,12 +251,12 @@ footer {
   }
 
    /* 11. Sin Titulo 16mm */
-  .proyecto:nth-child(11) { left: -2% !important; top: 990px !important; 
+  .proyecto:nth-child(11) { left: -4% !important; top: 990px !important; 
                           transform: scale(0.75) !important;
   }
 
    /* 12. Diario */
-  .proyecto:nth-child(12) { left: 5% !important; top: 1525px !important;
+  .proyecto:nth-child(12) { left: 8% !important; top: 1525px !important;
                           transform: scale(0.70) !important;
   }
 
@@ -286,6 +286,6 @@ footer {
   }
 
    /* 18. Anagama Super8 */
-  .proyecto:nth-child(18) { left: 65% !important; top: 335px !important; 
+  .proyecto:nth-child(18) { left: 63% !important; top: 335px !important; 
                           transform: scale(0.80) !important;
   }
