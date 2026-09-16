@@ -211,7 +211,7 @@ footer {
   }
 
    /* 3. El Origen de los Fantasmas */
-  .proyecto:nth-child(3) { left: 0.2% !important; top: 670px !important;
+  .proyecto:nth-child(3) { left: 1.5% !important; top: 670px !important;
                          transform: scale(0.80) !important;
   }
 
@@ -221,7 +221,7 @@ footer {
   }
 
    /* 5. Dyke March super 8 */
-  .proyecto:nth-child(5) { left: -1% !important; top: 490px !important; 
+  .proyecto:nth-child(5) { left: -2% !important; top: 490px !important; 
                          transform: scale(0.70) !important;
   }
 
@@ -231,7 +231,7 @@ footer {
   }
 
    /* 7. 8ABLA */
-  .proyecto:nth-child(7) { left: 35% !important; top: 110px !important;
+  .proyecto:nth-child(7) { left: 33% !important; top: 110px !important;
                          transform: scale(0.70) !important;
    }
 
@@ -246,12 +246,12 @@ footer {
   }
 
    /* 10. Ecos */
-  .proyecto:nth-child(10) { left: 0% !important; top: 1340px !important;
+  .proyecto:nth-child(10) { left: -3% !important; top: 1340px !important;
                           transform: scale(0.80) !important;
   }
 
    /* 11. Sin Titulo 16mm */
-  .proyecto:nth-child(11) { left: 0% !important; top: 990px !important; 
+  .proyecto:nth-child(11) { left: -1% !important; top: 990px !important; 
                           transform: scale(0.75) !important;
   }
 
@@ -261,7 +261,7 @@ footer {
   }
 
    /* 13. Des Bosques Encantados */
-  .proyecto:nth-child(13) { left: 0% !important; top: 1685px !important; 
+  .proyecto:nth-child(13) { left: -1% !important; top: 1685px !important; 
                           transform: scale(0.70) !important;
   }
 
