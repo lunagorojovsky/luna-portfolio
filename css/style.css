@@ -256,7 +256,7 @@ footer {
   }
 
    /* 12. Diario */
-  .proyecto:nth-child(12) { left: 8% !important; top: 1525px !important;
+  .proyecto:nth-child(12) { left: 10% !important; top: 1525px !important;
                           transform: scale(0.70) !important;
   }
 
