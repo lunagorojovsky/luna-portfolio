@@ -185,12 +185,9 @@
   if (window.innerWidth <= 400) {
     window.addEventListener('load', function () {
       setTimeout(function () {
-        window.scrollTo({
-          left: 35,
-          top: 0,
-          behavior: 'instant'
-        });
-      }, 200);
+        document.documentElement.scrollLeft = 35;
+        document.body.scrollLeft = 35;
+      }, 300);
     });
   }
 </script>
