@@ -17,8 +17,12 @@
       document.body.scrollLeft = 35;
 
       requestAnimationFrame(function () {
-        document.documentElement.style.visibility = 'visible';
-      });
+  document.documentElement.style.visibility = 'visible';
+
+  const script = document.createElement('script');
+  script.src = 'js/main.js';
+  document.body.appendChild(script);
+});
     });
   }
 </script>
@@ -192,8 +196,6 @@
   <footer>
     <span>© Luna Gorojovsky</span>
   </footer>
-
-  <script src="js/main.js"></script>
   
 </body>
 </html>
