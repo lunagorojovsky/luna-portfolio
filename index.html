@@ -8,6 +8,20 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Reenie+Beanie&display=swap" rel="stylesheet">
+<script>
+  if (window.innerWidth <= 400) {
+    document.documentElement.style.visibility = 'hidden';
+
+    document.addEventListener('DOMContentLoaded', function () {
+      document.documentElement.scrollLeft = 35;
+      document.body.scrollLeft = 35;
+
+      requestAnimationFrame(function () {
+        document.documentElement.style.visibility = 'visible';
+      });
+    });
+  }
+</script>
 </head>
 <body class="portfolio-page">
 
@@ -180,17 +194,6 @@
   </footer>
 
   <script src="js/main.js"></script>
-
-  <script>
-  if (window.innerWidth <= 400) {
-    window.addEventListener('load', function () {
-      setTimeout(function () {
-        document.documentElement.scrollLeft = 35;
-        document.body.scrollLeft = 35;
-      }, 300);
-    });
-  }
-</script>
   
 </body>
 </html>
