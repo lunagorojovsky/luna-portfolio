@@ -17,12 +17,19 @@
       document.body.scrollLeft = 35;
 
       requestAnimationFrame(function () {
-  document.documentElement.style.visibility = 'visible';
+        document.documentElement.style.visibility = 'visible';
 
-  const script = document.createElement('script');
-  script.src = 'js/main.js';
-  document.body.appendChild(script);
-});
+        const script = document.createElement('script');
+        script.src = 'js/main.js';
+        document.body.appendChild(script);
+      });
+    });
+
+  } else {
+    document.addEventListener('DOMContentLoaded', function () {
+      const script = document.createElement('script');
+      script.src = 'js/main.js';
+      document.body.appendChild(script);
     });
   }
 </script>
