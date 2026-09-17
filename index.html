@@ -180,12 +180,20 @@
   </footer>
 
   <script src="js/main.js"></script>
+
   <script>
   if (window.innerWidth <= 400) {
     window.addEventListener('load', function () {
-      window.scrollTo(35, 0);
+      setTimeout(function () {
+        window.scrollTo({
+          left: 35,
+          top: 0,
+          behavior: 'instant'
+        });
+      }, 200);
     });
   }
 </script>
+  
 </body>
 </html>
