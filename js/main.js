@@ -41,11 +41,7 @@ if (document.querySelector('.tablero') && window.innerWidth > 400 &&
       return;
     }
 
-    window.scrollBy({
-  left: dx,
-  top: dy,
-  behavior: 'auto'
-});
+    window.scrollBy(dx, dy);
 
   }
 
