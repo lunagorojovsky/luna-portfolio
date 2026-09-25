@@ -42,8 +42,9 @@ if (document.querySelector('.tablero') && window.innerWidth > 400 &&
     }
 
     window.scrollBy(dx, dy);
+requestAnimationFrame(recorrer);
 
-  }
+}
 
   window.addEventListener('pointermove', (evento) => {
     if (evento.pointerType !== 'mouse') return;
