@@ -12,22 +12,37 @@ proyectos.forEach((p, i) => {
   }, 50 + i * 50);
 });
 
-// Movimiento suave del tablero en escritorio
+// El tablero sigue suavemente el movimiento del cursor
 const tablero = document.querySelector('.tablero');
 const reducirMovimiento = window.matchMedia('(prefers-reduced-motion: reduce)');
 
 if (tablero && window.innerWidth > 400 && !reducirMovimiento.matches) {
-  tablero.animate(
-    [
-      { transform: 'translate3d(0, 0, 0)' },
-      { transform: 'translate3d(-35px, -18px, 0)' },
-      { transform: 'translate3d(-12px, -35px, 0)' },
-      { transform: 'translate3d(0, 0, 0)' }
-    ],
-    {
-      duration: 24000,
-      iterations: Infinity,
-      easing: 'ease-in-out'
+  let x = 0;
+  let y = 0;
+  let destinoX = 0;
+  let destinoY = 0;
+  let animacion = null;
+
+  function moverTablero() {
+    x += (destinoX - x) * 0.08;
+    y += (destinoY - y) * 0.08;
+    tablero.style.transform = `translate3d(${x}px, ${y}px, 0)`;
+
+    if (Math.abs(destinoX - x) > 0.1 || Math.abs(destinoY - y) > 0.1) {
+      animacion = requestAnimationFrame(moverTablero);
+    } else {
+      animacion = null;
     }
-  );
+  }
+
+  window.addEventListener('pointermove', (evento) => {
+    if (evento.pointerType !== 'mouse') return;
+
+    destinoX = (0.5 - evento.clientX / window.innerWidth) * 100;
+    destinoY = (0.5 - evento.clientY / window.innerHeight) * 70;
+
+    if (animacion === null) {
+      animacion = requestAnimationFrame(moverTablero);
+    }
+  });
 }
