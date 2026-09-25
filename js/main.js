@@ -41,8 +41,12 @@ if (document.querySelector('.tablero') && window.innerWidth > 400 &&
       return;
     }
 
-    window.scrollBy(dx, dy);
-    requestAnimationFrame(recorrer);
+    window.scrollBy({
+  left: dx,
+  top: dy,
+  behavior: 'auto'
+});
+
   }
 
   window.addEventListener('pointermove', (evento) => {
