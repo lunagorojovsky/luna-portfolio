@@ -23,9 +23,9 @@ if (document.querySelector('.tablero') && window.innerWidth > 400 &&
 
   function velocidad(posicion, tamaño) {
     const borde = Math.min(180, tamaño * 0.2);
-    if (posicion < borde) return -((borde - posicion) / borde) * 9;
+    if (posicion < borde) return -((borde - posicion) / borde) * 3;
     if (posicion > tamaño - borde) {
-      return ((posicion - (tamaño - borde)) / borde) * 9;
+      return ((posicion - (tamaño - borde)) / borde) * 3;
     }
     return 0;
   }
