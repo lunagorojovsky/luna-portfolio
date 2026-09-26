@@ -237,10 +237,32 @@ footer {
       0 0 8px #fff,
       0 0 12px #fff;
 
+     animation: avisoTitila 1.2s ease-in-out 3 forwards;
+
     white-space: nowrap;
     pointer-events: none;
   }
 }
+
+@keyframes avisoTitila {
+  0% {
+    opacity: 0;
+  }
+
+  35% {
+    opacity: 1;
+  }
+
+  65% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+/* --- Cursor --- */
 
 /* --- Cursor --- */
 
