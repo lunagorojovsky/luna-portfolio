@@ -12,16 +12,20 @@ proyectos.forEach((p, i) => {
   }, 50 + i * 50);
 });
 
-// Recorrer el tablero acercando el cursor a los bordes
+// Recorrer el tablero acercando el cursor a los bordes + inercia
 if (document.querySelector('.tablero') && window.innerWidth > 400 &&
     !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
 
   let cursorX = window.innerWidth / 2;
   let cursorY = window.innerHeight / 2;
-  let recorriendo = false;
-  let pausado = false;
 
-  function velocidad(posicion, tamaño) {
+  let velocidadX = 0;
+  let velocidadY = 0;
+
+  let pausado = false;
+  let activo = false;
+
+  function velocidadObjetivo(posicion, tamaño) {
     const borde = Math.min(180, tamaño * 0.2);
 
     if (posicion < borde) {
@@ -36,17 +40,44 @@ if (document.querySelector('.tablero') && window.innerWidth > 400 &&
   }
 
   function recorrer() {
-    if (!recorriendo) return;
+    if (!activo) return;
 
-    if (!pausado) {
-      const dx = velocidad(cursorX, window.innerWidth);
-      const dy = velocidad(cursorY, window.innerHeight);
+    const objetivoX = pausado
+      ? 0
+      : velocidadObjetivo(cursorX, window.innerWidth);
 
-      window.scrollTo({
-        left: window.scrollX + dx,
-        top: window.scrollY + dy,
-        behavior: 'auto'
-      });
+    const objetivoY = pausado
+      ? 0
+      : velocidadObjetivo(cursorY, window.innerHeight);
+
+    // Aceleración y desaceleración suaves
+    velocidadX += (objetivoX - velocidadX) * 0.08;
+    velocidadY += (objetivoY - velocidadY) * 0.08;
+
+    // Evita movimientos microscópicos eternos
+    if (Math.abs(velocidadX) < 0.01 && objetivoX === 0) {
+      velocidadX = 0;
+    }
+
+    if (Math.abs(velocidadY) < 0.01 && objetivoY === 0) {
+      velocidadY = 0;
+    }
+
+    window.scrollTo({
+      left: window.scrollX + velocidadX,
+      top: window.scrollY + velocidadY,
+      behavior: 'auto'
+    });
+
+    // Solo se detiene cuando ya no queda inercia
+    if (
+      velocidadX === 0 &&
+      velocidadY === 0 &&
+      objetivoX === 0 &&
+      objetivoY === 0
+    ) {
+      activo = false;
+      return;
     }
 
     requestAnimationFrame(recorrer);
@@ -58,8 +89,8 @@ if (document.querySelector('.tablero') && window.innerWidth > 400 &&
     cursorX = evento.clientX;
     cursorY = evento.clientY;
 
-    if (!recorriendo) {
-      recorriendo = true;
+    if (!activo) {
+      activo = true;
       requestAnimationFrame(recorrer);
     }
   });
@@ -70,5 +101,10 @@ if (document.querySelector('.tablero') && window.innerWidth > 400 &&
 
   window.addEventListener('pointerup', () => {
     pausado = false;
+
+    if (!activo) {
+      activo = true;
+      requestAnimationFrame(recorrer);
+    }
   });
 }
