@@ -227,10 +227,14 @@ footer {
     z-index: 200;
 
     font-family: var(--font-serif);
-    font-size: 12px;
+    font-size: 13px;
     font-style: italic;
+    line-height: 1.5;
     color: var(--fg);
-    opacity: 0.45;
+
+    background: rgba(255, 255, 255, 0.92);
+    border: 1px solid rgba(26, 26, 24, 0.15);
+    padding: 12px 18px;
 
     white-space: nowrap;
     pointer-events: none;
