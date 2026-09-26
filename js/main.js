@@ -23,28 +23,34 @@ if (document.querySelector('.tablero') && window.innerWidth > 400 &&
 
   function velocidad(posicion, tamaño) {
     const borde = Math.min(180, tamaño * 0.2);
-    if (posicion < borde) return -((borde - posicion) / borde) * 5;
+
+    if (posicion < borde) {
+      return -((borde - posicion) / borde) * 5;
+    }
+
     if (posicion > tamaño - borde) {
       return ((posicion - (tamaño - borde)) / borde) * 5;
     }
+
     return 0;
   }
 
   function recorrer() {
     if (!recorriendo) return;
 
-    const dx = pausado ? 0 : velocidad(cursorX, window.innerWidth);
-    const dy = pausado ? 0 : velocidad(cursorY, window.innerHeight);
+    if (!pausado) {
+      const dx = velocidad(cursorX, window.innerWidth);
+      const dy = velocidad(cursorY, window.innerHeight);
 
-    if (dx === 0 && dy === 0) {
-      recorriendo = false;
-      return;
+      window.scrollTo({
+        left: window.scrollX + dx,
+        top: window.scrollY + dy,
+        behavior: 'auto'
+      });
     }
 
-    window.scrollBy(dx, dy);
-requestAnimationFrame(recorrer);
-
-}
+    requestAnimationFrame(recorrer);
+  }
 
   window.addEventListener('pointermove', (evento) => {
     if (evento.pointerType !== 'mouse') return;
@@ -52,15 +58,17 @@ requestAnimationFrame(recorrer);
     cursorX = evento.clientX;
     cursorY = evento.clientY;
 
-    if (!recorriendo && !pausado) {
+    if (!recorriendo) {
       recorriendo = true;
       requestAnimationFrame(recorrer);
     }
   });
 
-  window.addEventListener('pointerdown', () => { pausado = true; });
+  window.addEventListener('pointerdown', () => {
+    pausado = true;
+  });
+
   window.addEventListener('pointerup', () => {
     pausado = false;
-    recorriendo = false;
   });
 }
