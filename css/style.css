@@ -222,12 +222,12 @@ footer {
     display: block;
     position: fixed;
     left: 50%;
-    bottom: 28px;
-    transform: translateX(-50%);
+    top: 50%;
+    transform: translate(-50%, -50%);
     z-index: 200;
 
     font-family: var(--font-serif);
-    font-size: 10px;
+    font-size: 12px;
     font-style: italic;
     color: var(--fg);
     opacity: 0.45;
