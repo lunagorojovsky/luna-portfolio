@@ -211,50 +211,6 @@ footer {
   transition: transform 0.22s ease;
 }
 
-/* --- Aviso recorrido --- */
-
-.aviso-recorrido {
-  display: none;
-}
-
-@media (pointer: fine) {
-  .aviso-recorrido {
-    display: block;
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 200;
-
-    font-family: var(--font-serif);
-    font-size: 14px;
-    font-style: italic;
-    line-height: 1.5;
-    color: var(--fg);
-
-    text-shadow:
-      0 0 4px #fff,
-      0 0 8px #fff,
-      0 0 12px #fff;
-
-   animation: avisoTitila 0.35s linear 6 forwards;
-
-    white-space: nowrap;
-    pointer-events: none;
-  }
-}
-
-@keyframes avisoTitila {
-  0%, 100% {
-    opacity: 0;
-  }
-
-  50% {
-    opacity: 1;
-  }
-}
-
-
 /* --- Cursor --- */
 
 @media (pointer: fine) {
