@@ -211,6 +211,19 @@ footer {
   transition: transform 0.22s ease;
 }
 
+/* --- Cursor --- */
+
+@media (pointer: fine) {
+  body {
+    cursor: url("https://res.cloudinary.com/dsppfoxzs/image/upload/w_32,h_32,c_fit/v1790445683/ChatGPT_Image_Sep_26_2026_03_01_12_PM_kbrwcr.png") 16 16, auto;
+  }
+
+  a,
+  .proyecto {
+    cursor: url("https://res.cloudinary.com/dsppfoxzs/image/upload/w_32,h_32,c_fit/v1790445683/ChatGPT_Image_Sep_26_2026_03_01_12_PM_kbrwcr.png") 16 16, pointer;
+  }
+}
+
 /* --- Responsive Mobile --- */
 @media (max-width: 400px) {
 
