@@ -214,14 +214,14 @@ footer {
 /* --- Cursor --- */
 
 @media (pointer: fine) {
-  body {
+  body,
+  a {
     cursor: url("https://res.cloudinary.com/dsppfoxzs/image/upload/w_32,h_32,c_fit/v1790445683/ChatGPT_Image_Sep_26_2026_03_01_12_PM_kbrwcr.png") 16 16, auto;
   }
 
-  a,
-.proyecto {
-  cursor: url("https://res.cloudinary.com/dsppfoxzs/image/upload/e_negate,w_32,h_32,c_fit/v1790445683/ChatGPT_Image_Sep_26_2026_03_01_12_PM_kbrwcr.png") 16 16, pointer;
-}
+  .proyecto {
+    cursor: url("https://res.cloudinary.com/dsppfoxzs/image/upload/e_negate,w_32,h_32,c_fit/v1790445683/ChatGPT_Image_Sep_26_2026_03_01_12_PM_kbrwcr.png") 16 16, pointer;
+  }
 }
 
 /* --- Responsive Mobile --- */
