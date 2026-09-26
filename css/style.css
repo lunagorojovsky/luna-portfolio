@@ -64,6 +64,16 @@ header {
   font-size: 14px;
   font-style: italic;
   letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.site-luna {
+  width: 13px;
+  height: 13px;
+  object-fit: contain;
+  flex-shrink: 0;
 }
 
 .header-right { display: flex; gap: 24px; }
