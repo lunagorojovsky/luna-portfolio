@@ -132,3 +132,16 @@ if (tablero) {
 
   });
 }
+
+// Restaurar el tablero al volver con Atrás
+window.addEventListener('pageshow', () => {
+  const tablero = document.querySelector('.tablero');
+
+  if (!tablero) return;
+
+  tablero.classList.remove('abriendo');
+
+  document.querySelectorAll('.proyecto').forEach((proyecto) => {
+    proyecto.classList.remove('seleccionado');
+  });
+});
