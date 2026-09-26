@@ -139,6 +139,7 @@ footer {
   min-height: 1300px;
   width: 2200px;
   padding: 80px 0 120px;
+   display: block; 
 }
 
 .proyecto {
