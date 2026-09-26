@@ -213,6 +213,8 @@ footer {
 
 /* --- Aviso recorrido --- */
 
+/* --- Aviso recorrido --- */
+
 .aviso-recorrido {
   display: none;
 }
@@ -227,14 +229,18 @@ footer {
     z-index: 200;
 
     font-family: var(--font-serif);
-    font-size: 13px;
+    font-size: 18px;
     font-style: italic;
     line-height: 1.5;
     color: var(--fg);
 
-    background: rgba(255, 255, 255, 0.92);
-    border: 1px solid rgba(26, 26, 24, 0.15);
-    padding: 12px 18px;
+    /* Borde/resplandor blanco para que se lea sobre cualquier imagen */
+    text-shadow:
+      -1px -1px 0 rgba(255, 255, 255, 0.95),
+       1px -1px 0 rgba(255, 255, 255, 0.95),
+      -1px  1px 0 rgba(255, 255, 255, 0.95),
+       1px  1px 0 rgba(255, 255, 255, 0.95),
+       0    0   5px rgba(255, 255, 255, 0.9);
 
     white-space: nowrap;
     pointer-events: none;
