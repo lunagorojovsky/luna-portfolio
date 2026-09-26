@@ -211,6 +211,32 @@ footer {
   transition: transform 0.22s ease;
 }
 
+/* --- Aviso recorrido --- */
+
+.aviso-recorrido {
+  display: none;
+}
+
+@media (pointer: fine) {
+  .aviso-recorrido {
+    display: block;
+    position: fixed;
+    left: 50%;
+    bottom: 28px;
+    transform: translateX(-50%);
+    z-index: 200;
+
+    font-family: var(--font-serif);
+    font-size: 10px;
+    font-style: italic;
+    color: var(--fg);
+    opacity: 0.45;
+
+    white-space: nowrap;
+    pointer-events: none;
+  }
+}
+
 /* --- Cursor --- */
 
 @media (pointer: fine) {
