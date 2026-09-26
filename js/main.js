@@ -108,3 +108,27 @@ if (document.querySelector('.tablero') && window.innerWidth > 400 &&
     }
   });
 }
+
+// Transición al abrir un proyecto
+const tablero = document.querySelector('.tablero');
+
+if (tablero) {
+  document.querySelectorAll('.proyecto').forEach((proyecto) => {
+
+    proyecto.addEventListener('click', (evento) => {
+      const enlace = proyecto.getAttribute('href');
+
+      if (!enlace) return;
+
+      evento.preventDefault();
+
+      proyecto.classList.add('seleccionado');
+      tablero.classList.add('abriendo');
+
+      setTimeout(() => {
+        window.location.href = enlace;
+      }, 220);
+    });
+
+  });
+}
