@@ -145,3 +145,20 @@ window.addEventListener('pageshow', () => {
     proyecto.classList.remove('seleccionado');
   });
 });
+
+// Posición inicial del tablero en desktop
+if (
+  document.querySelector('.tablero') &&
+  window.innerWidth > 400 &&
+  !sessionStorage.getItem('portfolioVisitado')
+) {
+  window.addEventListener('load', () => {
+    window.scrollTo({
+      left: 300,
+      top: 100,
+      behavior: 'auto'
+    });
+
+    sessionStorage.setItem('portfolioVisitado', 'true');
+  });
+}
