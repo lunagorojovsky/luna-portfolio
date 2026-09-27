@@ -284,7 +284,7 @@ body {
    }
 
    /* 8. Ampliaciones Intervenidas */
-  .proyecto:nth-child(8) { left: 68% !important; top: 1560px !important; 
+  .proyecto:nth-child(8) { left: 68% !important; top: 1540px !important; 
                          transform: scale(0.55) !important;
   }
 
