@@ -224,6 +224,29 @@ footer {
   }
 }
 
+/* --- Aviso recorrido --- */
+
+.aviso-recorrido {
+  display: none;
+}
+
+@media (pointer: fine) {
+  .aviso-recorrido {
+    display: block;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    width: min(650px, 55vw);
+    height: auto;
+
+    opacity: 0.55;
+    z-index: 200;
+    pointer-events: none;
+  }
+}
+
 /* --- Responsive Mobile --- */
 @media (max-width: 400px) {
 
