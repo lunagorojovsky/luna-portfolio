@@ -245,7 +245,7 @@ footer {
     z-index: 200;
     pointer-events: none;
 
-    animation: avisoDesaparece 4.5s ease forwards;
+    animation: avisoDesaparece 3.5s ease forwards;
   }
 }
 
