@@ -231,7 +231,7 @@ footer {
 }
 
 @media (pointer: fine) {
-  .aviso-recorrido {
+  .aviso-recorrido.mostrar {
     display: block;
     position: fixed;
     left: 50%;
