@@ -244,6 +244,18 @@ footer {
     opacity: 0.55;
     z-index: 200;
     pointer-events: none;
+
+    animation: avisoTitila 0.4s linear 5 forwards;
+  }
+}
+
+@keyframes avisoTitila {
+  0%, 100% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.55;
   }
 }
 
