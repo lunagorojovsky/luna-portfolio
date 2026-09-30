@@ -145,3 +145,15 @@ window.addEventListener('pageshow', () => {
     proyecto.classList.remove('seleccionado');
   });
 });
+
+// Mostrar aviso de recorrido solo una vez por sesión
+const avisoRecorrido = document.querySelector('.aviso-recorrido');
+
+if (
+  avisoRecorrido &&
+  window.matchMedia('(pointer: fine)').matches &&
+  !sessionStorage.getItem('avisoRecorridoVisto')
+) {
+  avisoRecorrido.classList.add('mostrar');
+  sessionStorage.setItem('avisoRecorridoVisto', 'true');
+}
