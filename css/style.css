@@ -238,7 +238,7 @@ footer {
     top: 50%;
     transform: translate(-50%, -50%);
 
-    width: min(650px, 55vw);
+    width: min(500px, 44vw);
     height: auto;
 
     opacity: 0.55;
